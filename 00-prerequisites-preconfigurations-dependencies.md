@@ -29,6 +29,22 @@
 
 `[anup@rhel-92-32 ~]$ ssh rhel-92-04`
 
+
+<br>
+
+Ensure your SSH agent is running:
+eval "$(ssh-agent -s)"
+
+Add your private key to the SSH agent:
+ssh-add ~/.ssh/id_rsa
+
+Check that the key has been added:
+ssh-add -l
+
+After performing these steps, try SSH-ing into the remote server again:
+ssh anup@192.168.56.5
+
+
 <br>
 
 **User should be added to the visudo,**
