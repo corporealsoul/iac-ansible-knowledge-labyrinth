@@ -33,16 +33,16 @@
 <br>
 
 Ensure your SSH agent is running:
-eval "$(ssh-agent -s)"
+`eval "$(ssh-agent -s)"`
 
 Add your private key to the SSH agent:
-ssh-add ~/.ssh/id_rsa
+`ssh-add ~/.ssh/id_rsa`
 
 Check that the key has been added:
-ssh-add -l
+`ssh-add -l`
 
 After performing these steps, try SSH-ing into the remote server again:
-ssh anup@192.168.56.5
+`ssh anup@192.168.56.5`
 
 
 <br>
@@ -71,6 +71,8 @@ ssh anup@192.168.56.5
 **Python should present,**
 
 `[anup@rhel-92-32 ~]$ python3 -V`
+
+`[anup@rhel-92-32 ~]$ alternatives --set python /usr/bin/python3`
 
 <br>
 
