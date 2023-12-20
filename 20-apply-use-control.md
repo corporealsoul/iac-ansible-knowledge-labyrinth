@@ -1,12 +1,15 @@
 ### Ansible Files,
+
 <br>
 
 
 ### Ansible Logs,
+
 <br>
 
 
 ### Ansible,
+
 <br>
 
 **Ping,**
@@ -78,6 +81,7 @@
 
 
 **Dry run,**
+
 `[anup@rhel-92-104 ~]$ ansible-playbook ansiplay.yml --check`
 
 `[anup@rhel-92-104 ~]$ ansible-playbook ansiplay.yml --check`
